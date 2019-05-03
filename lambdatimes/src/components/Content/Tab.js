@@ -13,8 +13,6 @@ const Tab = props => {
 
   const handleTabClick = (event => {
     event.preventDefault()
-    // console.log('CLICKED WORKED in handletabclick')
-    // console.log(this.props.tab);
     props.selectTabHandler(props.tab)
   })
 

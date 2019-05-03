@@ -18,7 +18,7 @@ const Card = props => {
 // Make sure to include PropTypes.
 
 Card.propTypes = {
-  card: PropTypes.arrayOf(PropTypes.object)
+  card: PropTypes.object
 }
 
 export default Card;
