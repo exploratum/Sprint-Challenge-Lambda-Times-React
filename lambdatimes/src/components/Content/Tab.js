@@ -8,8 +8,6 @@ const Tab = props => {
       if it is not it should just be 'tab'*/
 
   let classVar = props.selectedTab === props.tab ? 'tab active-tab' : 'tab';
-  console.log('className is:');
-  console.log(classVar);
 
   const handleTabClick = (event => {
     event.preventDefault()
